@@ -2,7 +2,7 @@
 
 you can get token when your task marged on github.
 
-## what supporsed to do the next
+## what I’m plannning to do next
 - increase token amount that you can take at one time.
 - conform that some poeple use this app.
 - (create database)
