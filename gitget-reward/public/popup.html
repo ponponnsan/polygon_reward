@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GetReward</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h2 class="title">getgit Reward</h2>
+
+      <div id="counter" class="counter"></div>
+        <form class="create-alarm">
+          <div class="create-alarm__label">metamask account_id</div>
+          <div class="create-alarm__value">
+            <input id="metamaskIdInput" stype="text" name="metamask id" />
+          </div>
+
+          <div class="create-alarm__label">github repourl</div>
+          <div class="create-alarm__value">
+            <input id="repoUrl" type="text" placeholder="GitHub Repository URL">
+          </div>
+        
+
+          <button id="save" type="submit" class="create-alarm__submit">SAVE</button>
+        </form>
+      </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+    <!--
+      This HTML file opens when you click on icon from the toolbar.
+
+      To begin the development, run `npm run watch`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>
